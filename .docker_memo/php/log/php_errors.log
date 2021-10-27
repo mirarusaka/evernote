@@ -1,2 +1,6 @@
 [26-Oct-2021 22:09:39 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 18
 [27-Oct-2021 21:15:00 Asia/Tokyo] PHP Notice:  Only variables should be passed by reference in /var/www/html/user/action/register.php on line 50
+[27-Oct-2021 21:58:21 Asia/Tokyo] PHP Warning:  require(../common/auth.php): failed to open stream: No such file or directory in /var/www/html/index.php on line 3
+[27-Oct-2021 21:58:21 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3
+[27-Oct-2021 21:59:30 Asia/Tokyo] PHP Warning:  require(../common/auth.php): failed to open stream: No such file or directory in /var/www/html/index.php on line 3
+[27-Oct-2021 21:59:30 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3
