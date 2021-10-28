@@ -41,11 +41,11 @@
                 <div class="col-3 h-100 m-0 p-0 border-left border-right border-gray">
                     <div class="left-memo-menu d-flex justify-contentbetween pt-2">
                         <div class="pl-3 pt-2">
-                        <?php echo $user_name; ?>さん、こんにちは。
+                            <?php echo $user_name; ?>さん、こんにちは。
                         </div>
                         <div class="pr-1">
-                        <a href="./action/add.php" class="btn btn-success"><i class="fas fa-plus"></i></a>
-                            <a href="../login/" class="btn btn-dark"><i class="fas fa-sign-out-alt"></i></a>
+                            <a href="./action/add.php" class="btn btn-success"><i class="fas fa-plus"></i></a>
+                            <a href="./action/logout.php" class="btn btn-dark"><i class="fas fa-sign-out-alt"></i></a>
                         </div>
                     </div>
                     <div class="left-memo-title h3 pl-3 pt-3">
