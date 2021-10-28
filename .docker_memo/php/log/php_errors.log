@@ -130,3 +130,9 @@
 [28-Oct-2021 20:11:36 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3
 [28-Oct-2021 20:11:56 Asia/Tokyo] PHP Warning:  require(../common/auth.php): failed to open stream: No such file or directory in /var/www/html/index.php on line 3
 [28-Oct-2021 20:11:56 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3
+[28-Oct-2021 20:20:21 Asia/Tokyo] PHP Warning:  require(../common/auth.php): failed to open stream: No such file or directory in /var/www/html/index.php on line 3
+[28-Oct-2021 20:20:21 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3
+[28-Oct-2021 20:20:24 Asia/Tokyo] PHP Warning:  require(../common/auth.php): failed to open stream: No such file or directory in /var/www/html/index.php on line 3
+[28-Oct-2021 20:20:24 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3
+[28-Oct-2021 20:20:32 Asia/Tokyo] PHP Warning:  require(../common/auth.php): failed to open stream: No such file or directory in /var/www/html/index.php on line 3
+[28-Oct-2021 20:20:32 Asia/Tokyo] PHP Fatal error:  require(): Failed opening required '../common/auth.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php on line 3

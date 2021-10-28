@@ -41,6 +41,22 @@
             'name' => $name,
             'id' => $id
             ];
+
+            //ログインし、ログイン者情報からメモを取得。最新の1件を取得(DESC LIMIT 1がそれ)
+            if ($statement = $database_handler->prepare("SELECT id, title, content
+            FROM memos WHERE user_id = :user_id ORDER BY updated_at DESC LIMIT 1")) {
+                $statement->bindParam(":user_id", $id);
+                $statement->execute();
+                $result = $statement->fetch(PDO::FETCH_ASSOC);
+                if ($result) {
+                    $_SESSION['select_memo'] = [
+                        'id' => $result['id'],
+                        'title' => $result['title'],
+                        'content' => $result['content']
+                    ];
+                }
+            }
+
             header('Location: ../../memo/');
             exit;
         } else {
